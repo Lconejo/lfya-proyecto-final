@@ -39,7 +39,9 @@ cd lfya-proyecto-final
 
 ### 4. Instala las dependencias en tu entorno virtual
 
-Ejecuta elo siguiente comando:
+#### Ejecuta el siguiente comando:
 
     pip install -r requirements.txt
+
+Listo! ya tienes todo lo necesario para trabajar en el proyecto.
     
