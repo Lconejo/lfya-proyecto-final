@@ -36,4 +36,10 @@ cd lfya-proyecto-final
 #### En Windows (CMD):
 
     venv\Scripts\activate
+
+### 4. Instala las dependencias en tu entorno virtual
+
+Ejecuta elo siguiente comando:
+
+    pip install -r requirements.txt
     
