@@ -15,3 +15,12 @@ Proyecto final de la materia de Lenguajes Formales y Autómatas
 
   # En Windows (CMD):
     venv\Scripts\activate
+
+## 🛠️ Configuración del Entorno de Desarrollo (Python venv)
+
+Para asegurar que todos usemos las mismas librerías y versiones, debes crear y activar un **entorno virtual** antes de empezar a trabajar.
+
+### 1. Clonar el Repositorio
+
+Si aún no lo has hecho, clona el repositorio a tu máquina local y entra al directorio:
+
