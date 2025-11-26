@@ -12,6 +12,12 @@ Para asegurar que todos usemos las mismas librerías y versiones, debes crear y 
 
 Si aún no lo has hecho, clona el repositorio a tu máquina local y entra al directorio:
 
+git clone https://github.com/Lconejo/lfya-proyecto-final.git
+
+Luego escibe:
+
+cd lfya-proyecto-final
+
 ### 2. Crea un entorno virtual
 
 #### En macOS/Linux:
