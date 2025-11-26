@@ -1,8 +1,8 @@
 # lfya-proyecto-final
-Proyecto final de la materia de Lenguajes Formales y Autómatas
-Profesor Honorato Saavedra Hernández
-Grupo 08
-Semestre 2026-1
+### Proyecto final de la materia de Lenguajes Formales y Autómatas
+### Profesor Honorato Saavedra Hernández
+### Grupo 08
+### Semestre 2026-1
 
 ## 🛠️ Configuración del Entorno de Desarrollo (Python venv)
 
