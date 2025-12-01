@@ -8,6 +8,7 @@ __pycache__/
 
 #codigo generado por el programa
 parsetab.py
+parser.out
 
 # Carpeta generada al usar vscode
 .vscode/
