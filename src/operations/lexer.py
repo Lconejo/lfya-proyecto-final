@@ -2,7 +2,7 @@
 import ply.lex as lex
 #      LISTA DE TOKENS
 tokens = (
-    'NUMBER',sq
+    'NUMBER',
     'PLUS',
     'MINUS',
     'TIMES',
