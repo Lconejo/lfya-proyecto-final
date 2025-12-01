@@ -5,8 +5,7 @@ from interfaz import path #supongamos que ya tenemos el path
 
 def excelReader(path : str) -> list:
 
-    contenido = [] #Aquí guardaremos las expresiones de la celda
-
+    #intentamos abrir el archivo
     try:
         workBook = openpyxl.load_workbook(path)
         sheet = workBook.active
@@ -14,11 +13,13 @@ def excelReader(path : str) -> list:
     except Exception as e:
         print(f"Error al intentar abrir el archivo . . .: \n {e}")
         return []
+    
+    contenido = [] #Aquí guardaremos las expresiones de la celda
 
     for row in sheet.iter_rows(min_row=1, max_col=1):
         for cell in row:
             if cell.value is not None:
-                contenido.append(cell.value)
+                contenido.append(cell.value.lower())
     
     workBook.close()
-    return contenido #el tokenizador y parser ya pueden llamar al método
+    return contenido 
