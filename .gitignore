@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#codigo generado por el programa
+parsetab.py
+
 # Carpeta generada al usar vscode
 .vscode/
 
