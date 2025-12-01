@@ -11,7 +11,8 @@ tokens = (
     'RPAREN',
     'ABS',
     'SQRT',
-    'EXP'
+    'EXP',
+    'ID'
 )
 #   PALABRAS RESERVADAS
 reserved = {
